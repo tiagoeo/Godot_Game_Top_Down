@@ -4,7 +4,11 @@
 </p>
 
 <p align="left">
-  Player animated top-Down, disponível no <a href="https://opengameart.org/content/animated-top-down-survivor-player"> opengameart.org</a>.
+  Personagem disponível em: <a href="https://opengameart.org/content/animated-top-down-survivor-player"> animated top down survivor player</a>.
+</p>
+
+<p align="left">
+  Projétil disponível em: <a href="https://opengameart.org/content/bullet-enemy-game-character"> bullet enemy game character</a>.
 </p>
 
 <hr><h2 align="left">LINGUAGENS E FERRAMENTAS</h2>
