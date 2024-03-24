@@ -1,6 +1,10 @@
 <hr><h2 align="left">SOBRE</h2>
 <p align="left">
-    Game top Down desenvolvido no Godot Engine.
+    Game top Down desenvolvido no Godot Engine.  
+</p>
+
+<p align="left">
+  Player animated top-Down, disponível no <a href="https://opengameart.org/content/animated-top-down-survivor-player"> opengameart.org</a>.
 </p>
 
 <hr><h2 align="left">LINGUAGENS E FERRAMENTAS</h2>
