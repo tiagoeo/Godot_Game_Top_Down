@@ -1,3 +1,7 @@
+<hr><h2 align="left">GAME TOP-DOWN</h2>
+<p align="center">
+  <img src="https://github.com/tiagoeo/Godot_Game_Top_Down/blob/main/GameTopDown.gif" alt="Game Top-Down" height="240" width="320">
+</p>
 <hr><h2 align="left">SOBRE</h2>
 <p align="left">
     Game top Down desenvolvido no Godot Engine.  
