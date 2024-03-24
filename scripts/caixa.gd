@@ -8,7 +8,9 @@ var _muito_danificada = preload("res://assets/caixa/03.png")
 
 func ocorrer_dano(dano):
 	if hp_caixa <= 0:
-		print("destruiu caixa")
+		$Sprite2D.visible = false
+		$CPUParticles2D.emitting = true
+		await get_tree().create_timer(1.0).timeout
 		queue_free()
 	else:
 		hp_caixa -= dano
