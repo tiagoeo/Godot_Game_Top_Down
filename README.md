@@ -11,6 +11,10 @@
   Projétil disponível em: <a href="https://opengameart.org/content/bullet-enemy-game-character"> bullet enemy game character</a>.
 </p>
 
+<p align="left">
+  Caixa disponível em: <a href="https://opengameart.org/content/box-2"> Box 2</a>.
+</p>
+
 <hr><h2 align="left">LINGUAGENS E FERRAMENTAS</h2>
 <p align="center">
     <a href="https://git-scm.com/" target="_blank" rel="noreferrer">

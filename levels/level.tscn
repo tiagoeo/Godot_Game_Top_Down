@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://br8kmr3r6m8dr"]
+[gd_scene load_steps=8 format=3 uid="uid://br8kmr3r6m8dr"]
 
 [ext_resource type="Texture2D" uid="uid://cj6cqo23h833l" path="res://assets/cenario/piso.png" id="1_i3idq"]
 [ext_resource type="Texture2D" uid="uid://8kc7770ml2p" path="res://assets/cenario/parede.png" id="2_sxhaa"]
 [ext_resource type="PackedScene" uid="uid://0htdkxbai4w5" path="res://assets/player/player.tscn" id="3_bhorb"]
+[ext_resource type="PackedScene" uid="uid://cuko4ka8al4fb" path="res://assets/caixa/caixa.tscn" id="4_81iqe"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_a305r"]
 resource_name = "Piso"
@@ -42,3 +43,170 @@ layer_0/tile_data = PackedInt32Array(589824, 0, 0, 655360, 0, 0, 720896, 0, 0, 7
 [node name="Personagem" type="Node2D" parent="."]
 
 [node name="Player" parent="Personagem" instance=ExtResource("3_bhorb")]
+
+[node name="Objetos" type="Node2D" parent="."]
+metadata/_edit_lock_ = true
+
+[node name="Corredor 1-2" type="Node2D" parent="Objetos"]
+position = Vector2(2421, 1184)
+metadata/_edit_lock_ = true
+
+[node name="Caixa10" parent="Objetos/Corredor 1-2" instance=ExtResource("4_81iqe")]
+position = Vector2(2101, 450)
+
+[node name="Caixa2" parent="Objetos/Corredor 1-2" instance=ExtResource("4_81iqe")]
+position = Vector2(-1497, -703)
+
+[node name="Caixa" parent="Objetos/Corredor 1-2" instance=ExtResource("4_81iqe")]
+position = Vector2(-1496, -828)
+
+[node name="Caixa3" parent="Objetos/Corredor 1-2" instance=ExtResource("4_81iqe")]
+position = Vector2(-1499, -575)
+
+[node name="Caixa4" parent="Objetos/Corredor 1-2" instance=ExtResource("4_81iqe")]
+position = Vector2(-1371, -829)
+
+[node name="Caixa5" parent="Objetos/Corredor 1-2" instance=ExtResource("4_81iqe")]
+position = Vector2(-1371, -703)
+
+[node name="Caixa6" parent="Objetos/Corredor 1-2" instance=ExtResource("4_81iqe")]
+position = Vector2(-1373, -580)
+
+[node name="Caixa7" parent="Objetos/Corredor 1-2" instance=ExtResource("4_81iqe")]
+position = Vector2(2034, -427)
+
+[node name="Caixa8" parent="Objetos/Corredor 1-2" instance=ExtResource("4_81iqe")]
+position = Vector2(2188, -425)
+
+[node name="Caixa9" parent="Objetos/Corredor 1-2" instance=ExtResource("4_81iqe")]
+position = Vector2(2337, -425)
+
+[node name="Caixa11" parent="Objetos/Corredor 1-2" instance=ExtResource("4_81iqe")]
+position = Vector2(2253, 1010)
+
+[node name="Caixa12" parent="Objetos/Corredor 1-2" instance=ExtResource("4_81iqe")]
+position = Vector2(2065, 1645)
+
+[node name="Caixa13" parent="Objetos/Corredor 1-2" instance=ExtResource("4_81iqe")]
+position = Vector2(2281, 2421)
+
+[node name="Corredor 3-4" type="Node2D" parent="Objetos"]
+position = Vector2(2676, 4849)
+metadata/_edit_lock_ = true
+
+[node name="Caixa14" parent="Objetos/Corredor 3-4" instance=ExtResource("4_81iqe")]
+position = Vector2(1629, -689)
+
+[node name="Caixa15" parent="Objetos/Corredor 3-4" instance=ExtResource("4_81iqe")]
+position = Vector2(1350, -863)
+
+[node name="Caixa16" parent="Objetos/Corredor 3-4" instance=ExtResource("4_81iqe")]
+position = Vector2(661, -734)
+
+[node name="Caixa17" parent="Objetos/Corredor 3-4" instance=ExtResource("4_81iqe")]
+position = Vector2(777, -900)
+
+[node name="Caixa18" parent="Objetos/Corredor 3-4" instance=ExtResource("4_81iqe")]
+position = Vector2(-975, -749)
+
+[node name="Caixa19" parent="Objetos/Corredor 3-4" instance=ExtResource("4_81iqe")]
+position = Vector2(-657, -925)
+
+[node name="Caixa20" parent="Objetos/Corredor 3-4" instance=ExtResource("4_81iqe")]
+position = Vector2(-1858, -745)
+
+[node name="Caixa22" parent="Objetos/Corredor 3-4" instance=ExtResource("4_81iqe")]
+position = Vector2(-2050, -95)
+
+[node name="Caixa21" parent="Objetos/Corredor 3-4" instance=ExtResource("4_81iqe")]
+position = Vector2(-2207, -261)
+
+[node name="Caixa23" parent="Objetos/Corredor 3-4" instance=ExtResource("4_81iqe")]
+position = Vector2(-2238, 185)
+
+[node name="Caixa24" parent="Objetos/Corredor 3-4" instance=ExtResource("4_81iqe")]
+position = Vector2(-2022, 188)
+
+[node name="Caixa25" parent="Objetos/Corredor 3-4" instance=ExtResource("4_81iqe")]
+position = Vector2(-2268, 564)
+
+[node name="Caixa26" parent="Objetos/Corredor 3-4" instance=ExtResource("4_81iqe")]
+position = Vector2(-2122, 565)
+
+[node name="Caixa27" parent="Objetos/Corredor 3-4" instance=ExtResource("4_81iqe")]
+position = Vector2(-1971, 563)
+
+[node name="Corredor 5-6" type="Node2D" parent="Objetos"]
+position = Vector2(2729, 6466)
+
+[node name="Caixa" parent="Objetos/Corredor 5-6" instance=ExtResource("4_81iqe")]
+position = Vector2(-1687, -586)
+
+[node name="Caixa2" parent="Objetos/Corredor 5-6" instance=ExtResource("4_81iqe")]
+position = Vector2(-1498, -778)
+
+[node name="Caixa3" parent="Objetos/Corredor 5-6" instance=ExtResource("4_81iqe")]
+position = Vector2(-1296, -927)
+
+[node name="Caixa4" parent="Objetos/Corredor 5-6" instance=ExtResource("4_81iqe")]
+position = Vector2(-761, -558)
+
+[node name="Caixa5" parent="Objetos/Corredor 5-6" instance=ExtResource("4_81iqe")]
+position = Vector2(-991, -683)
+
+[node name="Caixa6" parent="Objetos/Corredor 5-6" instance=ExtResource("4_81iqe")]
+position = Vector2(-1114, -854)
+
+[node name="Caixa7" parent="Objetos/Corredor 5-6" instance=ExtResource("4_81iqe")]
+position = Vector2(-563, -701)
+
+[node name="Caixa8" parent="Objetos/Corredor 5-6" instance=ExtResource("4_81iqe")]
+position = Vector2(-405, -836)
+
+[node name="Caixa9" parent="Objetos/Corredor 5-6" instance=ExtResource("4_81iqe")]
+position = Vector2(-181, -927)
+
+[node name="Caixa10" parent="Objetos/Corredor 5-6" instance=ExtResource("4_81iqe")]
+position = Vector2(66, -853)
+
+[node name="Caixa11" parent="Objetos/Corredor 5-6" instance=ExtResource("4_81iqe")]
+position = Vector2(225, -756)
+
+[node name="Caixa12" parent="Objetos/Corredor 5-6" instance=ExtResource("4_81iqe")]
+position = Vector2(368, -617)
+
+[node name="Caixa13" parent="Objetos/Corredor 5-6" instance=ExtResource("4_81iqe")]
+position = Vector2(595, -523)
+
+[node name="Caixa14" parent="Objetos/Corredor 5-6" instance=ExtResource("4_81iqe")]
+position = Vector2(811, -653)
+
+[node name="Caixa15" parent="Objetos/Corredor 5-6" instance=ExtResource("4_81iqe")]
+position = Vector2(957, -780)
+
+[node name="Caixa16" parent="Objetos/Corredor 5-6" instance=ExtResource("4_81iqe")]
+position = Vector2(1127, -910)
+
+[node name="Caixa17" parent="Objetos/Corredor 5-6" instance=ExtResource("4_81iqe")]
+position = Vector2(1355, -771)
+
+[node name="Caixa18" parent="Objetos/Corredor 5-6" instance=ExtResource("4_81iqe")]
+position = Vector2(1526, -647)
+
+[node name="Caixa19" parent="Objetos/Corredor 5-6" instance=ExtResource("4_81iqe")]
+position = Vector2(1733, -536)
+
+[node name="Caixa20" parent="Objetos/Corredor 5-6" instance=ExtResource("4_81iqe")]
+position = Vector2(2175, -807)
+
+[node name="Caixa21" parent="Objetos/Corredor 5-6" instance=ExtResource("4_81iqe")]
+position = Vector2(2174, -672)
+
+[node name="Caixa22" parent="Objetos/Corredor 5-6" instance=ExtResource("4_81iqe")]
+position = Vector2(2171, -540)
+
+[node name="Caixa23" parent="Objetos/Corredor 5-6" instance=ExtResource("4_81iqe")]
+position = Vector2(2171, -953)
+
+[node name="Caixa24" parent="Objetos/Corredor 5-6" instance=ExtResource("4_81iqe")]
+position = Vector2(2356, -736)

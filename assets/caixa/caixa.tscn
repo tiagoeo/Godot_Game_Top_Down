@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://cuko4ka8al4fb"]
+
+[ext_resource type="Script" path="res://scripts/caixa.gd" id="1_lntm5"]
+[ext_resource type="Texture2D" uid="uid://cv4hlotixwp1e" path="res://assets/caixa/00.png" id="2_2rywm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5vver"]
+size = Vector2(119, 121)
+
+[node name="Caixa" type="RigidBody2D"]
+collision_layer = 8
+collision_mask = 0
+gravity_scale = 0.0
+script = ExtResource("1_lntm5")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_2rywm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 0.5)
+shape = SubResource("RectangleShape2D_5vver")
