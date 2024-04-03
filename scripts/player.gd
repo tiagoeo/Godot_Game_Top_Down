@@ -8,12 +8,14 @@ var tiro_target
 var projetil = preload("res://assets/bala/bala.tscn")
 
 func _input(event):
-	if event.is_action_pressed("click"):
-		target = get_global_mouse_position()
+	if GLOBALSCRIPT.PLAYER_MOVER:
+		if event.is_action_pressed("click"):
+			target = get_global_mouse_position()
 		
-	if event.is_action_pressed("tiro"):
-		tiro_target = get_node("Marker2D")
-		tiro = true
+	if GLOBALSCRIPT.PLAYER_ATIRAR:
+		if event.is_action_pressed("click"):
+			tiro_target = get_node("Marker2D")
+			tiro = true
 
 @warning_ignore("unused_parameter")
 func _physics_process(delta):
